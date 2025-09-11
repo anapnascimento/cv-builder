@@ -23,7 +23,7 @@ export const useCVData = () => {
         id: '1',
         company: 'Tech Solutions Inc.',
         jobRole: 'Desenvolvedor Full Stack',
-        startDate: 'Jan 2022',
+        startDate: 'Jan/22',
         endDate: 'Presente',
         description: 'Desenvolvi e mantive aplicações web usando React e Node.js. Colaborei em equipes ágeis para entregar funcionalidades de alta qualidade.',
       },
