@@ -8,7 +8,7 @@ export const generateAIEnhancement = async (description: string): Promise<string
     throw new Error('A descrição da experiência não pode estar vazia.');
   }
 
-  const prompt = `Melhore a seguinte descrição de uma experiência de trabalho para o currículo, tornando-a mais profissional, detalhada e focada em resultados. Use uma linguagem de ação. O texto original é: "${description}". Responda apenas com o texto aprimorado, sem introduções ou explicações adicionais, toda a resposta deve ser em primeira pessoa do singular.`;
+  const prompt = `Melhore o texto tornando-a mais profissional detalhado e focado em resultados. Use uma linguagem de ação. O texto original é: "${description}". Responda apenas com o texto aprimorado, sem introduções ou explicações adicionais ou informações para serem preenchidas posteriormente, toda a resposta deve ser em primeira pessoa do singular e deve ser uma descrição final.`;
 
   const payload = {
     contents: [{ parts: [{ text: prompt }] }],
