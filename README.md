@@ -3,7 +3,7 @@ Gerador de currículo inteligente com preview em tempo real
 # React + TypeScript + Vite
 
 # Configuração inicial
-- git clone <[URL do repositório](https://github.com/anapnascimento/cv-builder)>
+- git clone <[https://github.com/anapnascimento/cv-builder.git](https://github.com/anapnascimento/cv-builder.git)>
 - Abra pasta do projeto no terminal e execute o comando abaixo para instalação das dependências:
 
 ```bash
