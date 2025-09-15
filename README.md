@@ -1,5 +1,5 @@
 # cv-builder
-Gerador de currículo inteligente com preview em tempo real
+Gerador de currículo com preview em tempo real
 # React + TypeScript + Vite
 
 # Configuração inicial

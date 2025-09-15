@@ -31,7 +31,7 @@ const FormSection: React.FC<FormSectionProps> = ({
 }) => {
   return (
     <div className="w-full md:w-1/2 p-8 overflow-y-auto">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">Gerador de Currículo Inteligente</h1>
+      <h1 className="text-3xl font-bold mb-6 text-gray-800">Gerador de Currículo</h1>
       <PersonalInfo
         personalInfo={cvData.personalInfo}
         onUpdate={handlePersonalInfoChange}
