@@ -8,7 +8,7 @@ type PreviewSectionProps = {
 
 const PreviewSection: React.FC<PreviewSectionProps> = ({ data }) => {
   return (
-    <div className="w-full md:w-1/2 p-8 overflow-y-auto">
+    <div id="preview" className="w-full max-w-[800px] md:w-1/2 p-8 overflow-y-auto">
       <CVPreview data={data} />
     </div>
   );

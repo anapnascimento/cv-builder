@@ -24,6 +24,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ personalInfo, onUpdate }) =
           <input
             type="text"
             name="fullName"
+            placeholder="Nome Completo"
             value={personalInfo.fullName}
             onChange={onUpdate}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
@@ -44,6 +45,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ personalInfo, onUpdate }) =
           <input
             type="email"
             name="email"
+            placeholder="email@exemplo.com"
             value={personalInfo.email}
             onChange={handleInputChange}
             onBlur={(e) => {
@@ -66,6 +68,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ personalInfo, onUpdate }) =
           <input
             type="tel"
             name="phone"
+            placeholder="(11) 98765-4321"
             value={personalInfo.phone}
             onChange={onUpdate}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
@@ -76,6 +79,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ personalInfo, onUpdate }) =
           <input
             type="url"
             name="linkedin"
+            placeholder="linkedin.com/in/seu-perfil"
             value={personalInfo.linkedin}
             onChange={onUpdate}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
@@ -86,6 +90,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ personalInfo, onUpdate }) =
           <input
             type="url"
             name="github"
+            placeholder="github.com/seu-perfil"
             value={personalInfo.github}
             onChange={onUpdate}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"

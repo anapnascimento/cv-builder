@@ -5,11 +5,11 @@ import { generateAIEnhancement } from '../services/aiService';
 export const useCVData = () => {
   const [cvData, setCvData] = useState<CVData>({
     personalInfo: {
-      fullName: 'Nome Completo',
-      email: 'email@exemplo.com',
-      phone: '(11) 98765-4321',
-      linkedin: 'linkedin.com/in/seu-perfil',
-      github: 'github.com/seu-perfil',
+      fullName: '',
+      email: '',
+      phone: '',
+      linkedin: '',
+      github: '',
       jobTitle: '',
       descriptionSkills: '',
     },

@@ -25,6 +25,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estrutura arquivos
 - [x] Funcionalidades e Preview
 - [x] Consulta e retorno API Gemini
+- [x] Exportar para PDF
 - [ ] Melhoria layout
 - [ ] Melhoria validação
 - [ ] Aplicação publicada na Vercel
